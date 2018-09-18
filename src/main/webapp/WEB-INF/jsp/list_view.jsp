@@ -14,6 +14,6 @@
     <body>
         <h1>Lista de Usuarios!</h1>
         Usuario      Senha<br>
-        ${usuario}   ${senha}
+        ${user.usuario}   ${user.senha}
     </body>
 </html>

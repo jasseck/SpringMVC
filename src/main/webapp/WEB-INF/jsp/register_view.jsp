@@ -13,8 +13,8 @@
     </head>
     <body>
         <h1>Registo de Usuario</h1>
-        <h2>${usuario}, Seja bem vindo</h2>
-        <form action="registerProcess" method="post">
+        <h2>${user}, Seja bem vindo</h2>
+        <form action="registerProcess" modelAttribute="user" method="post">
             Usuario: <input type="text" name="usuario" value=""><br><br>
             Senha:      <input type="password" name="senha" value=""><br><br>
             <input type="submit" value="Entrar">

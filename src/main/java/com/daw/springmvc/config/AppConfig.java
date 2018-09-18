@@ -1,4 +1,4 @@
-package com.daw.springmvc;
+package com.daw.springmvc.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
